@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--참고한 사이트 : https://www.fangamer.com/collections/ena -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Shopping!</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="out.css?after">
+    
+</head>
+
+<body>
+    <!-- 상단 바 -->
+    <nav class="navbar navbar-expand-lg" style="background-color: aliceblue; height: 7vh;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" style="font-weight: bold;">
+                <p style="font-size: 30px;">
+                    <span class="e-color">E</span>
+                    <span class="n-color">N</span>
+                    <span class="a-color">A</span>
+                </p>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <!-- 첫 드롭다운 -->
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Catalog
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">T-shirts</a></li>
+                            <li><a class="dropdown-item" href="#">Lapel Pins</a></li>
+                            <li><a class="dropdown-item" href="#">Posters</a></li>
+                            <li><a class="dropdown-item" href="#">Combo Pack</a></li>
+                            <li><a class="dropdown-item" href="#">Stickers</a></li>
+                        </ul>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="log_in.php">Log in</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    
+    <aside id="left">
+        <div class="centered-content">
+            <button id="lr-button">&lt;</button>
+        </div>
+    </aside>
+    <aside id="right">
+        <div class="centered-content">
+            <button id="lr-button">&gt;</button>
+        </div>
+    </aside>
+    
+    <!-- 중간 테이블 -->
+    <table align="center">
+
+        <!-- 상품 첫 번째 줄 -->
+        <tr>
+            <td align=center>
+                <div class="card" style="width: 18rem; margin: 10px;">
+                    <a href="#" style="text-decoration: none; color:black">
+                        <img src="./images/enaTest.png" class="card-img-top" alt="ENA Temp Image">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color:chartreuse">ENA 봉제인형</h5>
+                            <p class="card-text">Season1의 ENA의 모습을 본떠 만든 <strong>ENA 봉제인형</strong>입니다! 옆에 <strong>TURRON</strong>도 있어요!</p>
+                        </div>
+                    </a>
+                </div>
+            </td>
+            <td align=center>
+                <div class="card" style="width: 18rem; margin: 10px;">
+                    <a href="#" style="text-decoration: none; color:black">
+                        <img src="./images/enaTest.png" class="card-img-top" alt="ENA Temp Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </a>
+                </div>
+            </td>
+            <td align=center>
+                <div class="card" style="width: 18rem; margin: 10px;">
+                    <a href="#" style="text-decoration: none; color:black">
+                        <img src="./images/enaTest.png" class="card-img-top" alt="ENA Temp Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </a>
+                </div>
+            </td>
+            <td align=center>
+                <div class="card" style="width: 18rem; margin: 10px;">
+                    <a href="#" style="text-decoration: none; color:black">
+                        <img src="./images/enaTest.png" class="card-img-top" alt="ENA Temp Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </a>
+                </div>
+            </td>
+        </tr>
+
+        <!-- 상품 두 번째 줄 -->
+        <tr>
+            <td align=center>
+                <div class="card" style="width: 18rem; margin: 10px;">
+                    <a href="#" style="text-decoration: none; color:black">
+                        <img src="./images/enaTest.png" class="card-img-top" alt="ENA Temp Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </a>
+                </div>
+            </td>
+            <td align=center>
+                <div class="card" style="width: 18rem; margin: 10px;">
+                    <a href="#" style="text-decoration: none; color:black">
+                        <img src="./images/enaTest.png" class="card-img-top" alt="ENA Temp Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </a>
+                </div>
+            </td>
+            <td align=center>
+                <div class="card" style="width: 18rem; margin: 10px;">
+                    <a href="#" style="text-decoration: none; color:black">
+                        <img src="./images/enaTest.png" class="card-img-top" alt="ENA Temp Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </a>
+                </div>
+            </td>
+            <td align=center>
+                <div class="card" style="width: 18rem; margin: 10px;">
+                    <a href="#" style="text-decoration: none; color:black">
+                        <img src="./images/enaTest.png" class="card-img-top" alt="ENA Temp Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </a>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
