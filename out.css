@@ -2,20 +2,20 @@
     color:blue;
     font-weight: bold;
     text-shadow:
-        -1px -1px 0 #000, /* 왼쪽 위 */
-         1px -1px 0 #000, /* 오른쪽 위 */
-        -1px  1px 0 #000, /* 왼쪽 아래 */
-         1px  1px 0 #000; /* 오른쪽 아래 */
+        -1px -1px 0 #000,
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
 }
 
 .n-color{
     color:white;
     font-weight: bold;
     text-shadow:
-        -1px -1px 0 #000, /* 왼쪽 위 */
-         1px -1px 0 #000, /* 오른쪽 위 */
-        -1px  1px 0 #000, /* 왼쪽 아래 */
-         1px  1px 0 #000; /* 오른쪽 아래 */
+        -1px -1px 0 #000,
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
 }
 
 .a-color{
@@ -27,22 +27,7 @@
         -1px  1px 0 #000,
          1px  1px 0 #000; 
 }
-/* 
-#footer {
-    position: fixed;
-    background-color: green;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 6rem;
-} */
 
-/* .side-panel {
-    width: 10%;
-    height: 100vh;
-    background-color: #d6d6d6;
-}
- */
 .centered-content {
     display: flex;
     justify-content: center;
