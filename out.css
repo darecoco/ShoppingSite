@@ -1,0 +1,53 @@
+.e-color{
+    color:blue;
+    font-weight: bold;
+    text-shadow:
+        -1.5px -1.5px 0 #000, /* 왼쪽 위 */
+         1.5px -1.5px 0 #000, /* 오른쪽 위 */
+        -1.5px  1.5px 0 #000, /* 왼쪽 아래 */
+         1.5px  1.5px 0 #000; /* 오른쪽 아래 */
+}
+
+.n-color{
+    color:white;
+    font-weight: bold;
+    text-shadow:
+        -1.5px -1.5px 0 #000, /* 왼쪽 위 */
+         1.5px -1.5px 0 #000, /* 오른쪽 위 */
+        -1.5px  1.5px 0 #000, /* 왼쪽 아래 */
+         1.5px  1.5px 0 #000; /* 오른쪽 아래 */
+}
+
+.a-color{
+    color:yellow;
+    font-weight: bold;
+    text-shadow:
+        -1.5px -1.5px 0 #000, /* 왼쪽 위 */
+         1.5px -1.5px 0 #000, /* 오른쪽 위 */
+        -1.5px  1.5px 0 #000, /* 왼쪽 아래 */
+         1.5px  1.5px 0 #000; /* 오른쪽 아래 */
+}
+
+#footer {
+    position: fixed;
+    background-color: green;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 6rem;
+}
+
+.side-panel {
+    width: 10%; /* 원하는 너비로 조절 */
+    height: 100vh;
+    background-color: #d6d6d6; /* 원하는 배경색으로 설정 */
+}
+
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* 부모 요소에 대한 높이를 100%로 설정하여 내용을 가운데 정렬 */
+    text-align: center;
+}
