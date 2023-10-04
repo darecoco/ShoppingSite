@@ -1,0 +1,60 @@
+.e-color{
+    color:blue;
+    font-weight: bold;
+    text-shadow:
+        -1px -1px 0 #000,
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+}
+
+.n-color{
+    color:white;
+    font-weight: bold;
+    text-shadow:
+        -1px -1px 0 #000,
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+}
+
+.a-color{
+    color:yellow;
+    font-weight: bold;
+    text-shadow:
+        -1px -1px 0 #000,
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000; 
+}
+
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+#right{
+    width: 10%;
+    height:93vh;
+    float: right;
+    color:red;
+}
+
+#left{
+    width: 10%;
+    float: left;
+    height:93vh;
+    color:blue;
+}
+
+#lr-button{
+    height: 97vh;
+    background-color: #22415f00;
+    color: rgba(148, 148, 148, 0.527);
+    font-size: 30vh;
+    border: none;
+    cursor: pointer;
+}
